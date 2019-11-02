@@ -1,5 +1,5 @@
 .nav{
-    background:linear-gradient(to right, rgb(0, 0, 0),rgb(100, 100, 100));
+    background:var(--main-gradient);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;

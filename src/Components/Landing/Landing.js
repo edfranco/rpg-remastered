@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 // internal components
 import { landingImages as IMAGES } from '../../Constants/landingImages';
 // internal styles
@@ -37,7 +38,9 @@ class Landing extends Component {
                 <p>Are you a fan of table top games like Dungeons and Dragons?</p>
                 <p>Did you you enjoy games like the Elder Scrolls Games, Fallout, and The Witcher?</p>
                 <p>Awesome! This is not the game for you. This is not a very good RPG but it's a cool concept I wanted to play with. This game has the basic RPG elements such as, branching storylines, quests, and inventory management</p>
-                <button>Start</button>
+                <Link to="/game-start">
+                    <button>Start</button>
+                </Link>
             </div>
         );
     }

@@ -1,6 +1,8 @@
 :root{
     --main-font-color: rgb(255, 255, 255);
     --main-hover-color: rgb(221, 221, 221);
+    --main-gradient: linear-gradient(to right, rgb(0, 0, 0),rgb(100, 100, 100));
+    --secondary-gradient: linear-gradient(to right,rgb(255, 100, 100), rgb(255, 100, 100));
 }
 
 
@@ -11,4 +13,14 @@ main{
 #landing-image{
     width: 100%;
     max-height: 50vh;
+}
+
+button{
+    border-radius: 10%;
+    background: var(--secondary-gradient);
+    font-size: 2em;
+    color: white;
+    height: 2em;
+    width: 3em;
+
 }
