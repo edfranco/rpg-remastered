@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 // internal components
-import { landingImages as IMAGES } from '../../Constants/landingImages';
+import { landingImages as IMAGES } from '../../Constants/constants';
 // internal styles
 import './Landing.css';
 

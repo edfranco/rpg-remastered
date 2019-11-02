@@ -15,5 +15,13 @@ export const landingImages = [
         name: "The Witcher",
         imageUrl: "https://cdn.shopify.com/s/files/1/2241/4395/products/the_witcher_3_wild_hunt_witcher_griffin-HD_f9782515-95ec-4b4d-aa15-299c89c1505e_1024x1024.jpg?v=1536936942"
     }
-
 ];
+
+export const SKILLS = [
+    'strength',
+    'dexterity',
+    'constitution',
+    'intelligence',
+    'wisdom',
+    'charisma'
+]

@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 // internal components
 import Profile from '../Profile/Profile';
+import StatRoll from './StatRoll/StatRoll';
+import CharnameForm from './CharnameForm/CharnameForm';
+import { SKILLS } from '../../Constants/constants';
 // internal styles
 import './Game.css'
 
-const SKILLS = [
-    'strength',
-    'dexterity',
-    'constitution',
-    'intelligence',
-    'wisdom',
-    'charisma'
-]
+
 
 class Game extends Component {
     state = {
@@ -26,7 +22,8 @@ class Game extends Component {
         charisma: 0,
         hp: 0,
         dmg: 0,
-        displayStat: false
+        displayStat: false,
+        displayStatRoll: false
     };
 
     setStat = () => {
@@ -40,15 +37,21 @@ class Game extends Component {
         });
     };
 
+    submitName = () => {
+        this.setState({ displayStatRoll: true });
+    }
+
+    handleChange = (event) => {
+        this.setState({ [event.target.name]: event.target.value });
+    }
+
     render() {
         return (
             <div className="game">
-                <div>
-                    <h1>Roll the Dice For Stats</h1>
-                    <h4>Roll for {SKILLS[this.state.skillIndex]}</h4>
-                    <button onClick={this.setStat}>Roll</button>
-                    {this.state.displayStat && <p>Your {SKILLS[this.state.skillIndex - 1]} is now {this.state.skillRank}  </p>}
-                </div>
+                {this.state.displayStatRoll
+                    ? <StatRoll skillIndex={this.state.skillIndex} skillRank={this.state.skillRank} setStat={this.setStat} displayStat={this.displayStat} />
+                    : <CharnameForm name={this.state.name} handleChange={this.handleChange} submitName={this.submitName} />
+                }
                 <div className="profile-container">
                     <Profile
                         name={this.state.name}
