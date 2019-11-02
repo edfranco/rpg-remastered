@@ -34,7 +34,9 @@ class Game extends Component {
         const stat = Math.floor(Math.random() * 20) + 1;
         this.setState({
             [SKILLS[this.state.skillIndex]]: stat,
-            skillIndex: hasExceededArrLimit ? 0 : this.state.skillIndex + 1
+            skillRank: stat,
+            skillIndex: hasExceededArrLimit ? 0 : this.state.skillIndex + 1,
+            displayStat: true
         });
     };
 
@@ -44,8 +46,8 @@ class Game extends Component {
                 <div>
                     <h1>Roll the Dice For Stats</h1>
                     <h4>Roll for {SKILLS[this.state.skillIndex]}</h4>
-                    {this.state.displayStat && <p>Your {SKILLS[this.state.skillIndex]} is now {this.state.skillRank}  </p>}
                     <button onClick={this.setStat}>Roll</button>
+                    {this.state.displayStat && <p>Your {SKILLS[this.state.skillIndex - 1]} is now {this.state.skillRank}  </p>}
                 </div>
                 <div className="profile-container">
                     <Profile
