@@ -12,3 +12,13 @@
 .profile .user-image{
     width: 90%;
 }
+
+.profile .battle-stats{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.profile .battle-stats h4{
+    padding-right:1em;
+}
