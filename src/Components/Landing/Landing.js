@@ -33,7 +33,9 @@ class Landing extends Component {
                     <h1>Not a Good RPG</h1>
                     <h4>A Game By <a href="eduardofranco.me">Eduardo Franco</a></h4>
                 </div>
-                <img id="landing-image" src={IMAGES[this.state.imageIndex].imageUrl} alt={`${IMAGES[this.state.imageIndex].name} game artwork`} />
+                <div className="landing-image-container">
+                    <img id="landing-image" src={IMAGES[this.state.imageIndex].imageUrl} alt={`${IMAGES[this.state.imageIndex].name} game artwork`} />
+                </div>
                 <h4>Do You like Roleplaying Games?</h4>
                 <p>Are you a fan of table top games like Dungeons and Dragons?</p>
                 <p>Did you you enjoy games like the Elder Scrolls Games, Fallout, and The Witcher?</p>
