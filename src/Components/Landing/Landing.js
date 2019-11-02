@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 // internal components
-import { landingImages } from '../../Constants/landingImages';
+import { landingImages as IMAGES } from '../../Constants/landingImages';
 // internal styles
 import './Landing.css';
-
-const IMAGES = landingImages;
 
 class Landing extends Component {
     state = {

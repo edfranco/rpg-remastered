@@ -1,7 +1,7 @@
 import React from 'react';
 // internal components
 import Nav from './Components/Nav/Nav';
-import Landing from './Components/Landing/Landing';
+import Routes from './config/routes';
 // styles
 import './App.css';
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Nav />
       <main>
-        <Landing />
+        <Routes />
       </main>
     </div>
   );
