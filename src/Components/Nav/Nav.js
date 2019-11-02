@@ -9,13 +9,13 @@ const Nav = () => {
                 <h4>A Game By Eduardo Franco</h4>
             </div>
             <div className="personal-links">
-                <a href="linkedin.com/in/edfrancocano">
+                <a href="http://linkedin.com/in/edfrancocano">
                     <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="github.com/edfrancocano">
+                <a href="http://github.com/edfranco/rpg-remastered">
                     <i className="fab fa-github-square"></i>
                 </a>
-                <a href="eduardofranco.me">
+                <a href="http://eduardofranco.me">
                     <i className="fas fa-book-open"></i>
                 </a>
             </div>

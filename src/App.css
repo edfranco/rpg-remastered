@@ -3,6 +3,7 @@
     --main-hover-color: rgb(221, 221, 221);
     --main-gradient: linear-gradient(to right, rgb(0, 0, 0),rgb(100, 100, 100));
     --secondary-gradient: linear-gradient(to right,rgb(255, 100, 100), rgb(255, 100, 100));
+    --hover-gradient: linear-gradient(to right,rgb(255, 130, 130), rgb(255, 160, 160));
 }
 
 
@@ -17,5 +18,9 @@ button{
     color: white;
     height: 2em;
     width: 3em;
+}
 
+button:hover{
+    cursor: pointer;
+    background: var(--hover-gradient);
 }

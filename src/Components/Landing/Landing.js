@@ -31,7 +31,7 @@ class Landing extends Component {
             <div className="landing">
                 <div className="header">
                     <h1>Not a Good RPG</h1>
-                    <h4>A Game By <a href="eduardofranco.me">Eduardo Franco</a></h4>
+                    <h4>A Game By <a href="http://eduardofranco.me">Eduardo Franco</a></h4>
                 </div>
                 <div className="landing-image-container">
                     <img id="landing-image" src={IMAGES[this.state.imageIndex].imageUrl} alt={`${IMAGES[this.state.imageIndex].name} game artwork`} />
