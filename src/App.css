@@ -1,0 +1,14 @@
+:root{
+    --main-font-color: rgb(255, 255, 255);
+    --main-hover-color: rgb(221, 221, 221);
+}
+
+
+main{
+    padding: 1.5em;
+}
+
+#landing-image{
+    width: 100%;
+    max-height: 50vh;
+}

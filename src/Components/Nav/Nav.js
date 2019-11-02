@@ -6,11 +6,18 @@ const Nav = () => {
         <nav className="nav">
             <div className="header">
                 <h1>Not a Good RPG</h1>
+                <h4>A Game By Eduardo Franco</h4>
             </div>
             <div className="personal-links">
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-github-square"></i>
-                <i class="fab fa-github-square"></i>
+                <a href="linkedin.com/in/edfrancocano">
+                    <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="github.com/edfrancocano">
+                    <i className="fab fa-github-square"></i>
+                </a>
+                <a href="eduardofranco.me">
+                    <i className="fas fa-book-open"></i>
+                </a>
             </div>
         </nav>
     );

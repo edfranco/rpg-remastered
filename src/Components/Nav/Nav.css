@@ -1,6 +1,28 @@
 .nav{
-    background-color: red;
+    background:linear-gradient(to right, rgb(0, 0, 0),rgb(100, 100, 100));
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    height:5vh;
+    color: var(--main-font-color);
+    padding: 1.5em 1.5em 0.5em 1.5em;
+    border-bottom: 1px solid rgb(251, 251, 251);
+}
+
+.nav h1{
+    font-size: 2em;
+}
+
+.nav i{
+    font-size: 2em;
+    padding: 0 0.1em;
+}
+
+.nav a{
+    color: var(--main-font-color);
+}
+
+.nav i:hover{
+    color: var(--main-hover-color);
+    font-size: 2.1em;
 }
