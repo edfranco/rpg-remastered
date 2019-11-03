@@ -20,7 +20,7 @@ const Profile = ({ strength,
                 <h4>DMG: {dmg}</h4>
             </div>
 
-            <img className="user-image" src="https://i.imgur.com/lixfsa3.jpg" />
+            <img className="user-image" src="https://i.imgur.com/lixfsa3.jpg" alt="your character" />
             <ul>
                 <li>Strength: {strength} </li>
                 <li>Dexterity: {dexterity}</li>
