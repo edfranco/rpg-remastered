@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d57b2c748ca87033a93692c8d895444",
+    "revision": "2a8f15ca434b2d142e2360cde92faabe",
     "url": "/rpg-remastered/index.html"
   },
   {
-    "revision": "4d4a1f470f360a69a96e",
+    "revision": "6d5d2f62af951cb2af8c",
     "url": "/rpg-remastered/static/css/main.dbf70233.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rpg-remastered/static/js/2.28a7d729.chunk.js"
   },
   {
-    "revision": "4d4a1f470f360a69a96e",
-    "url": "/rpg-remastered/static/js/main.7a14ab2f.chunk.js"
+    "revision": "6d5d2f62af951cb2af8c",
+    "url": "/rpg-remastered/static/js/main.60328827.chunk.js"
   },
   {
     "revision": "8293e8ac6b89e6ae30f8",
