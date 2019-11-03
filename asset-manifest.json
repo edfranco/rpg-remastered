@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rpg-remastered/static/css/main.dbf70233.chunk.css",
+    "main.js": "/rpg-remastered/static/js/main.6f3a525e.chunk.js",
+    "main.js.map": "/rpg-remastered/static/js/main.6f3a525e.chunk.js.map",
+    "runtime-main.js": "/rpg-remastered/static/js/runtime-main.744a6dac.js",
+    "runtime-main.js.map": "/rpg-remastered/static/js/runtime-main.744a6dac.js.map",
+    "static/js/2.28a7d729.chunk.js": "/rpg-remastered/static/js/2.28a7d729.chunk.js",
+    "static/js/2.28a7d729.chunk.js.map": "/rpg-remastered/static/js/2.28a7d729.chunk.js.map",
+    "index.html": "/rpg-remastered/index.html",
+    "precache-manifest.a758acbab21159929a8943d5a68389eb.js": "/rpg-remastered/precache-manifest.a758acbab21159929a8943d5a68389eb.js",
+    "service-worker.js": "/rpg-remastered/service-worker.js",
+    "static/css/main.dbf70233.chunk.css.map": "/rpg-remastered/static/css/main.dbf70233.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.744a6dac.js",
+    "static/js/2.28a7d729.chunk.js",
+    "static/css/main.dbf70233.chunk.css",
+    "static/js/main.6f3a525e.chunk.js"
+  ]
+}
