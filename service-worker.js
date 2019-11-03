@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rpg-remastered/precache-manifest.a758acbab21159929a8943d5a68389eb.js"
+  "/rpg-remastered/precache-manifest.7ad8271ecdc30ad259f0ad0fe681d441.js"
 );
 
 self.addEventListener('message', (event) => {
