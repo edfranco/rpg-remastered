@@ -39,7 +39,10 @@ class Landing extends Component {
                 <h4>Do You like Roleplaying Games?</h4>
                 <p>Are you a fan of table top games like Dungeons and Dragons?</p>
                 <p>Did you you enjoy games like the Elder Scrolls Games, Fallout, and The Witcher?</p>
-                <p>Awesome! This is not the game for you. This is not a very good RPG but it's a cool concept I wanted to play with. This game has the basic RPG elements such as, branching storylines, quests, and inventory management</p>
+                <p>Awesome! This is not the game for you. This is not a very good RPG but it's a cool concept
+                    I wanted to play with. This game's ambition is to have the basic RPG elements such as, branching storylines, quests, and inventory management</p>
+
+                <p>So far this game currently has a dice rolling mechanic to "roll" a character. The next step is to create a race mechanic and use that to calculate hit and damage points</p>
                 <Link to="/game-start">
                     <button>Start</button>
                 </Link>
