@@ -2,8 +2,6 @@ import React from 'react';
 import { SKILLS } from '../../../Constants/constants';
 // internal styles
 import './StatRoll.css';
-// image
-import dice from '../../../images/d20-icon-34406.jpg'
 
 const StatRoll = ({ skillIndex, skillRank, setStat, displayStat }) => {
     return (
