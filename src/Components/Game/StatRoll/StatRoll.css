@@ -1,0 +1,14 @@
+.stat-roll{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.stat-roll *{
+    margin-bottom: 1em;
+}
+
+.d20{
+    position: relative;
+}

@@ -7,8 +7,6 @@ import { SKILLS } from '../../Constants/constants';
 // internal styles
 import './Game.css'
 
-
-
 class Game extends Component {
     state = {
         skillIndex: 0,
@@ -49,7 +47,7 @@ class Game extends Component {
         return (
             <div className="game">
                 {this.state.displayStatRoll
-                    ? <StatRoll skillIndex={this.state.skillIndex} skillRank={this.state.skillRank} setStat={this.setStat} displayStat={this.displayStat} />
+                    ? <StatRoll skillIndex={this.state.skillIndex} skillRank={this.state.skillRank} setStat={this.setStat} displayStat={this.state.displayStat} />
                     : <CharnameForm name={this.state.name} handleChange={this.handleChange} submitName={this.submitName} />
                 }
                 <div className="profile-container">

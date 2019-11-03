@@ -1,4 +1,6 @@
 import React from 'react';
+// internal styles
+import './CharnameForm.css';
 
 const CharnameForm = ({ name, handleChange, submitName }) => {
     return (

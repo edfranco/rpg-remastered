@@ -1,0 +1,8 @@
+.charname-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.charname-form *{
+    margin-bottom: 1em;
+}

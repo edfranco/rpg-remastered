@@ -17,10 +17,16 @@ button{
     font-size: 2em;
     color: white;
     height: 2em;
-    width: 3em;
+    width: 3.2em;
 }
 
 button:hover{
     cursor: pointer;
     background: var(--hover-gradient);
+}
+
+input{
+    padding:1em;
+    font-size: 1.25em;
+    width: 50%;
 }
