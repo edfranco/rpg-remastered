@@ -21,6 +21,10 @@ const Profile = ({ strength,
             </div>
 
             <img className="user-image" src="https://i.imgur.com/lixfsa3.jpg" alt="your character" />
+            <form enctype="multipart/form-data">
+                <label>Image</label>
+                <input type='file' name='image' />
+            </form>
             <ul>
                 <li>Strength: {strength} </li>
                 <li>Dexterity: {dexterity}</li>
